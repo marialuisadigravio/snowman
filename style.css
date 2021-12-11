@@ -1,0 +1,137 @@
+html { 
+  display: flex;
+  height: 100%;
+  overflow: hidden;
+}
+
+body { 
+  background: rgb(182,219,228);
+  background: linear-gradient(180deg, rgba(182,219,228,1) 0%, rgba(223,236,235,1) 100%);
+  margin: 0px;
+  flex: 1;
+  height: 100%;
+  display: flex;
+  justify-content:end;
+  align-items: center;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+#testa {
+  background-color:white;
+  width: 100px;
+  height:100px;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  z-index: 1;
+  }
+
+#occhi {
+  display:flex;
+  flex-direction: row;
+}
+
+.aspettoOcchi {
+  background-color: darkslategray;
+  width: 10px;
+  height: 10px;
+}
+
+  #occhio1 {
+    border-radius: 50%;
+    margin-left: 20px;
+    margin-top: 35px;
+  }
+
+  #occhio2 {
+    border-radius: 50%;
+    margin-left: 20px;
+    margin-top: 30px;
+  }
+
+  #naso {
+    background-color:salmon;
+    width: 40px;
+    height: 10px;
+    border-radius: 30%;
+    margin-left: -10px;
+    margin-top: 3px;
+  }
+
+  #sciarpa {
+    background-color: violet;
+    width: 100px;
+    height: 45px;
+  }
+
+
+  #corpo1 {
+    background-color:white;
+    width: 150px;
+    height:150px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    margin-top: -20px;
+    }
+
+.aspettoBottoni {
+  background-color:darkslategray;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+} 
+
+
+ #bottone1 {
+  margin-left: 50px;
+  margin-top: 15px;
+  } 
+
+  #bottone2 {
+     margin-left: 30px;
+    margin-top: 20px;
+    } 
+
+    #bottone3 {
+      margin-left: 30px;
+      margin-top: 20px;
+      } 
+
+
+  #baseneve {
+    background-color:rgb(236, 248, 247);
+    width:100%;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  #hill1 {
+    background-color:rgb(236, 248, 247);
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin-top: -30px;
+    margin-left: -100px;
+  }
+  
+  #hill2 {
+    background-color:rgb(236, 248, 247);
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    margin-left: -700px;
+    margin-top: -70px;
+  }
+
+  #hill3 {
+    background-color:rgb(236, 248, 247);
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    margin-right: -70px;
+    margin-top: -60px;
+  }
